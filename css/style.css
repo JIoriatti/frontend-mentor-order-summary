@@ -22,8 +22,9 @@ body{
     justify-content: center;
     padding: 4em;
     background-image: url("../images/pattern-background-desktop.svg");
-    background-size: cover;
     background-color: var(--p-pale-blue);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .card{
     height: 690px;
@@ -61,14 +62,11 @@ p.description{
     width: 330px;
     background-color: var(--n-very-pale-blue);
     align-items: center;
-    /* justify-content: space-around; */
     border-radius: 10px;
     padding: 20px;
     margin: 1em 0 2em 0;
 }
-.music-icon{
-    
-}
+
 .plan-type-container{
     margin-left: 1em;
 }
@@ -100,6 +98,9 @@ p.description{
     border: none;
     border-radius: 10px;
     margin-bottom: 2em;
+
+    box-shadow: 4px 4px 40px -5px var(--n-desaturated-blue);
+
 }
 .payment-btn:active{
     background-color: var(--active-purp);
