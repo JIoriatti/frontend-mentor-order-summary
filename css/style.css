@@ -21,6 +21,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 4em;
+    background-image: url("../images/pattern-background-desktop.svg");
     background-color: var(--p-pale-blue);
     background-repeat: no-repeat;
     background-size: contain;
@@ -30,7 +31,7 @@ body{
     width: 450px;
     border-radius: 20px;
     margin-bottom: 5em;
-
+    
     box-shadow: 4px 10px 40px -20px var(--n-desaturated-blue);
 }
 .hero{
