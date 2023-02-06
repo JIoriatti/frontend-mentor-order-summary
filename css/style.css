@@ -21,7 +21,6 @@ body{
     align-items: center;
     justify-content: center;
     padding: 4em;
-    background-image: url("../images/pattern-background-desktop.svg");
     background-color: var(--p-pale-blue);
     background-repeat: no-repeat;
     background-size: contain;
@@ -31,16 +30,20 @@ body{
     width: 450px;
     border-radius: 20px;
     margin-bottom: 5em;
-    background-image: url("../images/illustration-hero.svg");
 
     box-shadow: 4px 10px 40px -20px var(--n-desaturated-blue);
+}
+.hero{
+    height: auto;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
 }
 .details-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 475px;
-    margin-top: 220px;
+    margin-top: -10px;
     border-radius: 0px 0px 20px 20px;
     background-color: white;
 }
@@ -93,7 +96,7 @@ p.description{
     padding: 1em;
     color: white;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     background-color: var(--p-bright-blue);
     border: none;
     border-radius: 10px;
@@ -119,4 +122,31 @@ p.description{
 }
 .payment-btn:hover,.cancel-btn:hover{
     cursor: pointer;
+}
+
+
+@media (max-width: 600px)  {
+    .card{
+        width: 320px;
+        height: 625px;
+    }
+    .payment-plan{
+        width: 75%;
+    }
+    .plan-header{
+        font-size: 16px;
+    }
+    .change-plan{
+        font-size: 14px;
+        margin-left: 2em;
+    }
+    .payment-btn{
+        width: 87%;
+    }
+    p.description{
+        padding: 0 1.75em 0 1.75em;
+    }
+    .attribution{
+        text-align: center;
+    }
 }
