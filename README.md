@@ -35,6 +35,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-card-layout-using-css-and-flexbox-ya_7h4XX2X)
 - Live Site URL: [GitPages Deploy](https://jioriatti.github.io/frontend-mentor-order-summary/)
 
 ## My process
